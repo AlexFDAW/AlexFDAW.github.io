@@ -1,4 +1,3 @@
-Páginas de Aarón Durán en GitHub
-Ejercicios de Lenguajes de Marcas y Sistemas de Gestión de la Información
+Ejercicios de Lenguajes de Marcas
 
-https://aaronduranwebdev.github.io/
+https://AlexFDAW.github.io/

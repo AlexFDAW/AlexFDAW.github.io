@@ -1,3 +1,3 @@
-Ejercicios de Lenguajes de Marcas
+#Ejercicios de Lenguajes de Marcas
 
-https://AlexFDAW.github.io/
+[Ejercicio 2_4](\EJERCICIOS\ej2_4\ej2_4)

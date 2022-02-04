@@ -94,6 +94,45 @@ body {
     font-weight: bold;
 }
 
+/** media **/
+.wrapper-media {
+    width: 100%;
+    display: grid;
+
+
+}
+
+.wrapper-media img {
+    justify-content: space-around;
+    padding: 80px;
+    grid-gap: 20px;
+    width: 480px;
+    height: 470px;
+    border: black solid;
+    background-color: #1e79e9;
+}
+
+.wrapper-media iframe video {
+    width: auto;
+
+}
+
+/** links**/
+
+.wrapper-links a:visited {
+    color: #437A16;
+}
+
+.wrapper-links a:hover {
+    border-bottom: 1px solid;
+    color: #ec5215;
+}
+
+.wrapper-links a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+}
+
 /* -------TITULO-------- */
 .titulo {
     background-image: url(/ej4/fondo.jpg);
@@ -102,6 +141,7 @@ body {
     font-size: 70px;
     COLOR: #1278BF;
     text-shadow: 0px 0px 9px #508AD3;
+    opacity: 0.8;
 }
 
 /* -------CLASE DIRECTOR-------- */
@@ -225,6 +265,28 @@ td {
 
 }
 
+/** extra **/
+.wrapper-extra {
+    display: grid;
+    grid-auto-flow: column;
+    font-family: "Mystery Quest", cursive;
+    font-size: 100%;
+}
+
+.wrapper-extra .p1 {
+    background-color: rgb(235, 238, 48);
+    width: 480px;
+    text-align: center;
+    border: 1px black solid;
+  
+}
+.wrapper-extra .p2 {
+    background-color: orange;
+    width: 480px;
+    text-align: center;
+    border: 1px black solid;
+}
+
 /** inicio **/
 #inicio {
     text-shadow: 0px 0px 9px #508AD3;
@@ -249,11 +311,16 @@ h4 {
     font-size: 25px;
     text-align: left;
     font-family: arial;
-    background-color: ;
-    
+
 }
 
 /** h3 **/
-h3{
+h3 {
     background-color: #000;
+}
+
+/** fuente alternativa **/
+@font-face {
+    font-family: "Mystery Quest";
+    src: url("mystery-quest.woff2");
 }
